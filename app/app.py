@@ -1,3 +1,7 @@
+API_TOKEN = "1141021151:AAEdcx1odj9l0TiDxhC5WgwekX5-LLsWkS8"
+
+TGBOT_TOKEN = API_TOKEN
+
 import ssl
 
 from aiogram import Dispatcher
