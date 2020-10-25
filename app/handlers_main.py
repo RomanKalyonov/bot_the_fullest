@@ -7,6 +7,8 @@ from functions import irr_verbs_training
 from load_all import dp
 from states import LetsPlay
 
+API_TOKEN = TGBOT_TOKEN
+
 
 bot = Bot(token=API_TOKEN)
 
