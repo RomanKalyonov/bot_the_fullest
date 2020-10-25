@@ -1,5 +1,6 @@
 import logging
 import ssl
+from aiogram.utils.executor import start_webhook
 
 import aiogram.utils.markdown as md
 from aiogram import Bot, Dispatcher, types
