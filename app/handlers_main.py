@@ -1,6 +1,7 @@
 from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters import CommandStart
 from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, CallbackQuery
+from aiogram import Bot
 
 from functions import irr_verbs_training
 from load_all import dp
