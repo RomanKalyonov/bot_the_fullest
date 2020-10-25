@@ -8,7 +8,7 @@ SSL_PRIV = os.getenv('SSL_PRIV')
 
 # Telegram token
 TGBOT_TOKEN = os.getenv('TGBOT_TOKEN')
-API_TOKEN = "1141021151:AAEdcx1odj9l0TiDxhC5WgwekX5-LLsWkS8"
+API_TOKEN = TGBOT_TOKEN
 
 # Telegram admins ID
 TG_ADMINS_ID = [int(ID) for ID in os.getenv('TG_ADMINS_ID').split(':')]
