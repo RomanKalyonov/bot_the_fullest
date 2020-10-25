@@ -1,4 +1,5 @@
 import logging
+import ssl
 
 import aiogram.utils.markdown as md
 from aiogram import Bot, Dispatcher, types
